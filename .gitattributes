@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+Intermediate filter=lfs diff=lfs merge=lfs -text
+NightSox.uproject filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+Saved filter=lfs diff=lfs merge=lfs -text
+Config filter=lfs diff=lfs merge=lfs -text
+Content filter=lfs diff=lfs merge=lfs -text
